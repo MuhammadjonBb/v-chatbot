@@ -92,7 +92,7 @@ function getRandomInt(n) {
 
 <style>
 .chat__card {
-  max-height: 50%;
+  height: 50vh;
   width: 100%;
 }
 </style>
