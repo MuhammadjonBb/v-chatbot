@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "/v-chat/",
     "paths": {
       "src/*": [
         "src/*"
