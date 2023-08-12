@@ -95,4 +95,10 @@ function getRandomInt(n) {
   height: 50vh;
   width: 100%;
 }
+
+@media (max-width: 599.99px) {
+  .chat__card {
+    height: 75vh;
+  }
+}
 </style>
