@@ -19,11 +19,9 @@
 import ChatWidget from 'src/components/ChatWidget.vue';
 </script>
 
-<style lang="scss">
-.chat {
-  &__container {
-    width: 30%;
-  }
+<style>
+.chat__container {
+  width: 30%;
 }
 
 @media (max-width: 1023.99px) {
