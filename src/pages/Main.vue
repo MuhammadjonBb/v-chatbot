@@ -3,8 +3,7 @@
     :class="{ 'column': $q.screen.xs || $q.screen.sm }, { 'justify-start': $q.screen.sm || $q.screen.xs }, { 'justify-around': $q.screen.md || $q.screen.xl || $q.screen.lg }">
     <div class="flex text-center column justify-center"
       :class="{ 'q-mb-lg': $q.screen.xs || $q.screen.sm || $q.screen.md }">
-      <h1 class="text-h3 text-white text-bold"
-        :class="{ 'text-h4': $q.screen.sm || $q.screen.xs }, { 'text-h5': $q.screen.xs }">
+      <h1 class="text-h3 text-white text-bold" :class="{ 'text-h4': $q.screen.sm || $q.screen.xs }">
         Vue Simple ChatBot
       </h1>
       <p class="text-h5 text-white" :class="{ 'text-h6': $q.screen.md || $q.screen.sm || $q.screen.xs }">A simple Vue
@@ -24,7 +23,6 @@ import ChatWidget from 'src/components/ChatWidget.vue';
 .chat {
   &__container {
     width: 30%;
-    min-width: 20%;
   }
 }
 
