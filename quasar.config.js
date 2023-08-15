@@ -59,7 +59,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: '/v-chat/',
+      publicPath: '/v-chatbot/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
